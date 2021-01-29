@@ -39,7 +39,7 @@ def solve(list,ulist):
                 # because as soon as the 5th appending is done for the first time,
                 # function ends in the next recursion while it might be invalid!
                 ulist.append(i)
-                if solve(list,ulist):
+                if solve(list,ulist): # Here is where the backtracking/recursion occurs
                     return True
                 del ulist[-1]
     return False # for situations if not any final answers is possible
