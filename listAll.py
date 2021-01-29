@@ -45,6 +45,6 @@ def solve(list,ulist,log):
    
 solve(nums,unums,log)   
   
-[print(l) for l in log] #Look at the one-lie nested synthax for loop     
+[print(l) for l in log] #Look at the one-line nested synthax for loop     
 print("---------------")
 print(len(log),"possible patterns found.")
