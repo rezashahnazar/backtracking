@@ -30,6 +30,7 @@ def solve(list,ulist,log):
     if len(ulist)==5:
         print(ulist)
         log.append('1') # adding to the logger list each time a pattern is found
+        # returning true is deleted to allow function to loop thoough all possible patterns
     
     for i in list:
         if i not in ulist:
