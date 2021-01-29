@@ -28,10 +28,8 @@ def xVal(ls, x):
 log=[] # A list for logging each time a pattern is found
 def solve(list,ulist,log):    
     if len(ulist)==5:
-        print(ulist)
-        log.append('New Pattern Found') # Appending to the logger list each time a pattern is found
-        # returning true is deleted to allow function to loop thoough all possible patterns
-    
+        log.append(str(ulist))
+        
     for i in list:
         if i not in ulist:
             if xVal(ulist, i): 
@@ -45,6 +43,8 @@ def solve(list,ulist,log):
     return False # for situations if not any final answers is possible
     
    
-solve(nums,unums,log)              
+solve(nums,unums,log)   
+  
+[print(l) for l in log] #Look at the one-lie nested synthax for loop     
 print("---------------")
 print(len(log),"possible patterns found.")
