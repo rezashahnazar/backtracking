@@ -34,6 +34,7 @@ def solve(list,ulist):
     for i in list:
         if i not in ulist:
             if xVal(ulist, i): 
+                # Now we check whether after appendig i to ulist, the new list would be valid
                 # validation should be done before appending, 
                 # because as soon as the 5th appending is done for the first time,
                 # function ends in the next recursion while it might be invalid!
