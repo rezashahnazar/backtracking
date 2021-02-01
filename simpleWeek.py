@@ -1,3 +1,5 @@
+# It is a draft - no specific function here
+
 import numpy as np
 
 week = np.random.rand(7,3)
