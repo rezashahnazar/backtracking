@@ -1,7 +1,7 @@
 # Doctor shifts
 A python project using backtracking and recursion.
 
-In this repository, there are several small projects which resembles the basic structures of a final Shift Management Project.
+In this repository, there are several small projects, resembling basic structures of the final Shift scheduler Project.
 
 "DoctorShifts.py" is the main project.
 It starts with an empty table of a 30 day month. Each day has 3 positions which should be filled. We should fill each cell with one of the 18 docors. in a way that:
