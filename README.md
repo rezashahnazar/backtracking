@@ -12,4 +12,4 @@ It starts with an empty table of a 30 day month. Each day has 3 positions which 
 4. Each doctor (of 18) should have a total of 5 shifts in the 30 days of the month (18 times 5 = 30 times 3 = 90).
 5. Shifts for each doctor should be evenly distributed.
 
-No Library is used in this project and nothing is imported. No interactions with a file or a databse is needed. Every thing is coded in a single file.
+Tkinter library is used to make a GUI for showing the final schedule in a formatted table. "GUI.py" loads "DoctorShifts.py" at first, then uses Tkinter to produce the GUI.
